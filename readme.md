@@ -1,7 +1,7 @@
 # UglifyJS Middleware #
 
 ## About ##
-This package is designed to provide a middleware solution for on the fly compression of JavaScript files. Code for embedding stays identical so switching between development and production states is as simple as changing the config for express.
+This middleware uses UglifyJS to provide easy JavaScript file minification and, well, uglification.
 
 ## Usage ##
 Using this middleware is as easy as one line.
@@ -16,7 +16,7 @@ Using this middleware is as easy as one line.
 
 ## License ##
 
-Copyright (c) 2015, Patrick Tsai <penguin@patosai.com>
+Copyright (c) 2015, Patrick Tsai (penguin@patosai.com)
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 
