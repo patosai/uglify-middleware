@@ -11,12 +11,15 @@ Using this middleware is as easy as one line.
 
 ## Options ##
 
-`src`: defines the source directory
-`debug`: enables debugging logging
+** Required **
+  * `src`: defines the source directory
+
+** Optional
+  * `debug`: enables debugging logging; default = `false`; options = `true`, `false`
 
 ## License ##
 
-Copyright (c) 2015, Patrick Tsai (penguin@patosai.com)
+Copyright (c) 2015, Patrick Tsai &lt;penguin@patosai.com&gt;
 
 Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
 

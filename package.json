@@ -1,11 +1,11 @@
 {
   "name": "uglify-middleware",
   "description": "Express.js middleware for Uglify JS",
-  "version": "0.0.2a",
+  "version": "0.0.3",
   "author": "Patrick Tsai <penguin@patosai.com> (http://www.github.com/patosai)",
   "main": "./lib/uglify-middleware",
   "directories": {
-    "lib":"./lib"
+    "lib": "./lib"
   },
   "repository": {
     "type": "git",
@@ -15,8 +15,8 @@
     "node": ">=0.6.x"
   },
   "dependencies": {
-    "uglify-js": "~2.4.16",
-    "winston": "~0.9.0"
+    "colors": "^1.0.3",
+    "uglify-js": "~2.4.16"
   },
   "devDependencies": {
     "express": ">=2.3.11",
