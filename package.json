@@ -1,7 +1,7 @@
 {
   "name": "uglify-middleware",
-  "description": "Express.js middleware for Uglify JS",
-  "version": "0.0.3",
+  "description": "Express middleware for Uglify JS",
+  "version": "0.0.3a",
   "author": "Patrick Tsai <penguin@patosai.com> (http://www.github.com/patosai)",
   "main": "./lib/uglify-middleware",
   "directories": {

@@ -9,8 +9,12 @@ It saves uglified .js files to a .cache folder (located where your source is) an
 ## Usage ##
 Using this middleware is as easy as one line.
 
-    app.use(require('uglify-middleware').middleware({ src: __dirname + '/public' });
+    app.use(require('uglify-middleware')({ src: __dirname + '/public' });
 
+Or if you'd like,
+
+    var uglifyMiddleware = require('uglify-middleware');
+    app.use(uglifyMiddleware({ src: __dirname + '/public' }));
 
 ## Options ##
 
