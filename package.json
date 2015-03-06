@@ -15,8 +15,8 @@
     "node": ">=0.6.x"
   },
   "dependencies": {
-    "colors": "^1.0.3",
-    "uglify-js": "~2.4.16"
+    "colors": ">=1.0.3",
+    "uglify-js": ">=2.4.16"
   },
   "devDependencies": {
     "express": ">=2.3.11",
