@@ -1,7 +1,10 @@
 # UglifyJS Middleware #
+[![Build Status](https://travis-ci.org/patosai/uglify-middleware.svg)](https://travis-ci.org/patosai/uglify-middleware)
 
 ## About ##
 This middleware uses UglifyJS to provide easy JavaScript file minification and, well, uglification.
+
+It saves uglified .js files to a .cache folder (located where your source is) and automatically updates when the source is changed.
 
 ## Usage ##
 Using this middleware is as easy as one line.
@@ -11,11 +14,15 @@ Using this middleware is as easy as one line.
 
 ## Options ##
 
-** Required **
+### Required ###
   * `src`: defines the source directory
 
-** Optional
-  * `debug`: enables debugging logging; default = `false`; options = `true`, `false`
+### Optional ###
+  * `debug`: enables debugging logging
+    * default: `false`
+    * options: `true`, `false`
+  * `maxAge`: set maximum age of HTTP cache (in seconds)
+    * default: `86400` or 1 day
 
 ## License ##
 
